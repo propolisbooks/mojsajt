@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-image:url(../images/background.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	background-color:#5A2F0A;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	margin:0.3em 0 0.5em;
+}
+
+h1 {font-size: 32px;}
+h2 {font-size: 26px;}
+h3 {font-size: 24px;}
+h4 {font-size: 22px;}
+h5 {font-size: 20px;}
+h6 {font-size: 18px;}
+
+img {
+	vertical-align: bottom;
+}
+
+a:link,
+a:visited {
+	color: #730507;
+	text-decoration: none;
+}
+a:hover {
+	color: #924D00;
+	text-decoration: underline;
+}
+a:active {
+	color: #777777;
+}
+
+
+#wrapper {
+	width:960px;
+	background-color:#FFFFFF;
+	padding: 15px;
+	margin:30px auto;
+	border-radius: 4px;
+}
+#header {
+	background-color: #730507;
+	overflow: hidden;
+	margin-bottom:15px;
+	color:#FFF;
+	padding: 10px;
+}
+#logo {
+	float:left;
+}
+#slogan {
+	float:right;
+	font-size:20px;
+	font-style:italic;
+}
+#nav {
+	background-color: #363636;
+	height:40px;
+	margin-bottom: 15px;
+}
+#nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav ul li {
+	float: left;
+	position: relative;
+}
+#nav ul li ul {
+	background-color: rgba(54,54,54,0.9);
+	position: absolute;
+	top:40px;
+	left: 0;
+	width:140px;
+	display: none; /* u startu sakriveno */
+}
+#nav ul li:hover > ul {
+	display: block; /* kada se otvori padajuci */ 
+}
+
+#nav ul li ul li {
+	float:none;
+}
+
+#nav ul li ul li ul {
+	top:0;
+	left: 140px;
+}
+
+
+
+#nav ul li a {
+	display: block;
+	padding: 10px;
+	height: 20px;
+}
+#nav ul li a:link,
+#nav ul li a:visited {
+	color:#FFFFFF;
+	text-decoration: none;
+}
+#nav ul li a:hover {
+	background-color: #730507;
+}
+#nav ul li a:active {
+	color: #000000;
+	background-color: #888888;
+}
+
+#social {
+	float: right;
+	font-size: 27px;
+	margin-right:10px;
+}
+
+#social a:link,
+#social a:visited {
+	color: #AAAAAA;
+}
+#social a:hover {
+	color: #FFFFFF;
+}
+#social a:active {
+	color: #730507;
+}
+
+
+#main {
+	float:left;
+	width:700px;
+	margin-right:20px;
+	margin-bottom: 30px;
+}
+#sidebar {
+	float:left;
+	width:240px;
+	margin-bottom: 30px;
+}
+#sidebar .block {
+	margin-bottom: 15px;
+}
+#sidebar h2 {
+	background-color: #BBBBBB;
+	color:#FFFFFF;
+	padding: 4px;
+}
+
+#footer {
+	background-color: #363636;
+	clear: both;
+	color:#929292;
+	text-align: center;
+	padding: 5px;
+}
+#footer p {
+	margin:0;
+}
+
+
+
+
+
+
+/* work stranica */
+
+.work {
+	width: 318px;
+	border: 1px solid #CCC;
+	float: left;
+	padding: 10px;
+	margin: 0 20px 20px 0;
+}
+
+.work img {
+	float: left;
+	margin: 2px 12px 2px 0;
+}
+
+.work:nth-of-type(2n) {
+	margin-right:0;
+}
+
+
+
+
+
+/* galerija stranica */
+
+.gallery {
+	overflow: hidden;
+}
+
+.gallery a {
+	display: block;
+	float: left;
+	padding: 9px;
+	border: 1px solid #ccc;
+	margin: 0 20px 20px 0;
+}
+
+.gallery a:nth-of-type(3n) {
+	margin-right: 0;
+}
+
+.gallery a:hover {
+	background: #CCC;
+}
+
+
+
+
+/* kontakt stranica*/
+
+#contactInfo {
+	float: left;
+	width: 360px;
+	margin: 0 20px 0 0;
+}
+
+.contactRow {
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.contactRow .fa {
+	margin-right: 14px;
+	opacity: 0.7;
+}
+
+#contactForm {
+	float:left;
+	width: 320px;
+}
+
+#contactForm input[type="text"] {
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+#contactForm textarea {
+	resize: none;
+	width: 298px;
+	height: 180px;
+	border: 1px solid #CCC;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+

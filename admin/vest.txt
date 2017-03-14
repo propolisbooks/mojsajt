@@ -1,0 +1,4 @@
+31.01.2017 10:44:28 - Uspesno dodata vest asd od strane korisnika bbosko
+31.01.2017 11:32:00 - Uspesno dodata vest v od strane korisnika vmiljkovic
+31.01.2017 11:45:03 - Izmenjena vest sa id=8 od strane vmiljkovic
+08.02.2017 09:30:52 - Greska prilikom izvrsavanja upita. You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's also called placeholder (or filler) text. It's a convenient tool for mock-ups.' at line 1
